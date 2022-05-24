@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    margin-top: 8em;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.row {
+    background-color: red;
+    height: 2em;
+    width: 32em;
+    display: flex;
+}
+
+.square {
+    background-color: white;
+    outline: 1px solid black;
+    height: 2em;
+    width: 2em;
+}
+
+button {
+    margin-top: 3em;
+    height: 2em;
+    width: 10em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
